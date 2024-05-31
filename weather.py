@@ -34,7 +34,7 @@ def get_current_weather(lat, lon, API_key):
     return data
 
 def main(city_name, state_name, country_name):
-    lat, lon = get_lan_lon(city_name, state_name, country_name,  api_key)
+    lat, lon = get_lan_lon(city_name, state_name, country_name, api_key)
     Weather_data = get_current_weather(lat, lon, api_key)
     return Weather_data
 
